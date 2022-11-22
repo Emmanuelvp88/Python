@@ -1,0 +1,1 @@
+# mandaremos a imprimir la sucesion fibonacci# la Sucesion Fibonacci consiste en sumar los dos numero anteriores para obtener# el siguiente numero y asi susesivamente.print("Sucesion Fibonacci")a, b = 0, 1while b <= 1597:    print(a, b, end=" ")    a = a+b    b = a+b

@@ -1,0 +1,21 @@
+# ***ENTRADA DE DATOS DESDE TECLADO**
+print("ENTRADA DE TIPOS DE DATOS")
+print()
+entrada_string = input("Introduce un nombre: ")
+entrada_int = int(input("Introduce un numero entero: "))
+entrada_flotante = float(input("Intruduce un numero real: "))
+entrada_complejo = complex(input("Introduce un numero complejo: "))
+print()
+print("String:   ", entrada_string)
+print("Entero:   ", entrada_int)
+print("Flotante", entrada_flotante)
+print("Complejo", entrada_complejo)
+print()
+
+print("FUNCION")
+nombre = input('¿Cual es tu nombre?')
+print('Hola ', nombre, ', vamos a realizar una suma: ', )
+num1 = (input('intruduce tu primer valor: '))
+num2 = (input('Dame tu segundo valor'))
+resultado = num1 + num2
+print('El resultado de tu suma es: ', resultado)
