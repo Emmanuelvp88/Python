@@ -22,17 +22,17 @@ print("*CONCATENACION  STRING , INT*")
 num1 = 7
 num2 = 5
 resultado = num1 + num2
-'''Hay varios  modo de concatenar diferentes tipos de variables en una sola
+'''Hay varios  modos de concatenar diferentes tipos de variables en una sola
 linea , emos visto la clasica con un signo de + o concatenacion, pero existe
 otro modo, que seria con una simple coma" ," en vez del signo de suma "+" y
 existe aunotro modo que es convertir en tipo "String" lavariable que quieres
 imprimir junto en la misma linea '''
 
-# modo 1 convertImos previamente cualquier variable a String y posterior concatenamos
+# modo 1: Encerramos en "str()" la variable del tipo numerico para convertirla a String y porterior concatenarla
 resultado = str(resultado)
 print("1.-El resultado de tu suma es: " + resultado)
 
-# modo 2 convertimos cualquier variable en la misma linea del "Print"
+# modo 2: convertimos la variable en el mismo "Print"
 print("2.-El resultado de tu suma es: " + str(resultado))
 
 # metodo 3 Solo concatenamos con una coma y automaticamente se typea
@@ -45,7 +45,7 @@ print('******BUSQUEDA DE POSICION EN UNA CADENA DE CARASTERES (Metodo "find")***
 mensaje = "Hola Emmanuel"
 print("Cadena de caracteres: " + mensaje)
 
-# teenmos que respetar las mayusculas para que funcione la busqueda
+# tenmos que respetar las mayusculas para que funcione la busqueda
 cadena = mensaje.find("la Emma")
 print("El metodo 'find' detecta que la cadena que buscas empieza desde la pocision numero:", cadena, "\n")
 
@@ -54,8 +54,8 @@ print("*******EXTRACCION DE CADENA DE CARACTERES****** \n")
 # de que numero hasta que numero de acaracteres quieres obtener.
 
 mensaje = "Hola Emmanuel"
-cadena_de_extarccion = mensaje[2:7]
-print("Has extraido estos caracteres: " + cadena_de_extarccion)
+mensaje = mensaje[2:7]
+print("Has extraido estos caracteres: " + mensaje)
 print()
 
 
@@ -65,3 +65,7 @@ print("****COMPARACION DE CADENAS DE TEXTO****")
 cadena1 = "Emmanuel"
 cadena2 = "emmanuel"
 print(cadena1 == cadena2)
+
+
+
+
