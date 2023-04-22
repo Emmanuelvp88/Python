@@ -28,7 +28,7 @@ print("El resultado de su multiplicacion es: " + str(resultado))
 print("\nDIVICION")
 
 resultado = num1 / num2
-print("El resultado de su Divicion es: " + str(resultado))
+print("El resultado de su Divicion es: ", resultado)
 print()
 
 print("\nPOTENCIA O EXPONENTE")
