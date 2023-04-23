@@ -23,8 +23,8 @@ print("(Complex) COMPLEJOS")
 """Son aquellos que tienen una parte real y una parte imaginaria, la mayor parte
 de los lenguajes de origramacion carecen de este tipo, aunque sea mu yutilizado
 por ingrnieros y cientificos en general."""
-numero = 5+6j
-print(numero,"Es del tipo: ", type(numero))
+numero = 5 + 6j
+print(numero, "Es del tipo: ", type(numero))
 print()
 
 print("(String) CAEDENA DE TEXTO")
@@ -33,11 +33,11 @@ tambien es posible encerrarla entre comillas triples de esta forma podemos escri
 el texto en varias lineasy al imprimir la cadena se respetaria los saltos de linea que
 demos, sin la nesecidad de recurir al caracter \n."""
 numero = "Emmanuel"
-print (numero, "Es del tipo: ", type(numero))
+print(numero, "Es del tipo: ", type(numero))
 print()
 
 print("(bool) BOLEANO")
 '''Este tipo de datos solo pueden tener  cierto "true"  o Falso "False" estos valosres
 son realmente importantes para las expresiones condicionales y los bucles .'''
 bolean = 2 == 3
-print (bolean,"Es del tipo ",  type(bolean))
+print(bolean, "Es del tipo ", type(bolean))

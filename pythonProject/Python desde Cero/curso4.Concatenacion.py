@@ -58,14 +58,9 @@ mensaje = mensaje[2:7]
 print("Has extraido estos caracteres: " + mensaje)
 print()
 
-
 print("****COMPARACION DE CADENAS DE TEXTO****")
 # si la comparacion coincide solo te marcara "True" y si no te marcara "False"#
 
 cadena1 = "Emmanuel"
 cadena2 = "emmanuel"
 print(cadena1 == cadena2)
-
-
-
-

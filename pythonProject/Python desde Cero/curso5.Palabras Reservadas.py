@@ -1,5 +1,5 @@
 "lAS 28 PALABRAS RESERVADAS EN PYTHOM"
-                  
+
 '''Las palabras reservadas en Python son identificadores para uso exclusivo
 del lenguaje de programacion que no pueden ser utilizadas apra identificar
 o nombrar variables, metodos, objetos o cualquier elemeto dento de nuestro
@@ -11,15 +11,14 @@ codigo'''
 19.continue  20.exec  21.inport  22.yield  23.def  24.finally 25.in  26.print
 27.from  28.lambda.'''
 
-
-#EJEMPLO CORECTO#
-#Devemos poner o ntercalar letras minusculas y mayusculas para que  no lo tome como palabra reservada
+# EJEMPLO CORECTO#
+# Devemos poner o ntercalar letras minusculas y mayusculas para que  no lo tome como palabra reservada
 Print = 5
 prinT = 4
 resultado = prinT + Print
 print("El resultado es: ", resultado)
 
-#EJEMPLO INVALIDO#
+# EJEMPLO INVALIDO#
 """Este ejeplo no se ejeutara ya que cuanta con errores. que son que las
 variables continene el mismo nombre que una palabra reservada y exclusiva del
 lenguaje Phyton"""
@@ -28,4 +27,3 @@ print = 5
 prinT = 4
 reaultado = print + prinT
 print(resultado)
-
