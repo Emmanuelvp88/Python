@@ -28,7 +28,7 @@ print("El resultado de su multiplicacion es: " + str(resultado))
 print("\nDIVICION")
 
 resultado = num1 / num2
-print("El resultado de su Divicion es: ", resultado)
+print("El resultado de su Divicion es: " + str(resultado))
 print()
 
 print("\nPOTENCIA O EXPONENTE")
@@ -44,9 +44,10 @@ print("\nMODULO O RESTO DE UNA DIVICION")
 
 num1 = 9
 num2 = 7
-resultado = float (num1 % num2)#Parseamos a float al variable resultado
+#Parseamos a float al variable resultado para que se reflejen los decimales el resto
+resultado = float (num1 % num2)
 
-print("El  de el modulo o resto de tu divicion  es: " + str(resultado))
+print("El modulo o resto de tu divicion  es: " + str(resultado))
 print ()
 
 """La divicion estera es aquella que solo te muestra el resultado en
