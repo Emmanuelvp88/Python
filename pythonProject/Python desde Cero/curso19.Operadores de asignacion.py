@@ -1,35 +1,20 @@
 #OPERADORES DE ASIGNACION
-
+print("Operadoores de asignacion ")
 print ("Asigancion de SUMA '+= '")
 
 print("Vamos a incrementar y decrementar un numero.\n")
 
-nombre = input ("Hola dame tu nombre: ")
-x = int (input("Hola "  + nombre  + " porfavor dame un numero: "))
+x = int (input("ingresa un numero: "))
+x += int(input("Ingresa otro numero para que se agrege al anterior."))
+print("Resultado de que se agrego es: .", x, "\n")
 
-print(nombre ," el numero que ingresaste es el " , x, " vamos a empezara a incrementarlo de uno en uno.")
+x -= int(input("Ahora ingresa un numero para que se le reste."))
+print("Resultado que se resto: ", x, "\n")
 
-x += 1
-print(x)
-x += 1
-print(x)
-x += 1
-print(x)
-x += 1
-print(x)
-x += 1
-print(x)
+x *= int(input("Ahora ingresa un numero para que se multiplique."))
+print("Resuñtado que se multiplico: ", x, "\n")
 
-print("\nAhora este mismo numero vamos a decrementarlo de unio en uno")
-print(x)
-x -=1
-print(x)
-x -=1
-print(x)
-x -=1
-print(x)
-x -=1
-print(x)
-x -=1
-print(x)
+x /= int(input("Ahora ingresa un muero para dividirlo"))
+print("Resultado de que dividio: ", x, "\n")
+
 print("fin")
