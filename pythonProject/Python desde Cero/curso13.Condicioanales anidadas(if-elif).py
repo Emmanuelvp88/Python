@@ -6,12 +6,14 @@ print("****************** \n"
 
 print("Preciona 1 para conevertir de numero a palabra.")
 print("Preciona 2 para convertir de palabra a numero. \n")
+
 opcion = int(input("¿Cual es la opcion que deseas realizar?  \n"))
 
 if opcion == 1:
-    print("Has seleccionado el conversor de numeros a palabras. \n")
 
+    print("Conversor de numeros a palabras. \n")
     numero = int(input(" Cual es el numero que deseas convertir en  palabra?"))
+
     if numero == 1:
         print(" El numero es 'Uno'")
     elif numero == 2:
@@ -24,9 +26,13 @@ if opcion == 1:
         print(" El numero es 'Cinco'")
     else:
         print("El numero no es valido. \nFin.")
+
 elif opcion == 2:
-    print("Has seleccionado el conversor de palabras a numeros. \n")
+
+    print("Conversor de palabras a numeros. \n")
     palabra = input("Que palabra deseas convertir en numero.")
+    palabra = palabra.lower();
+
     if palabra == "Uno":
         print(" El numero de tu palabra es '1'")
     elif palabra == "Dos":
