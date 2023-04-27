@@ -1,7 +1,7 @@
 print('Haora veremos los parametros "end" y "sep".')
 
 print('\nParametro "end"')
-# El parametro "end" se encarga de Unir unas cadenas de caracteres un que haya
+# El parametro "end" se encarga de Unir unas cadenas de caracteres aun que haya
 # un salto de linea, cabe mencionar que solo agregara la sigiente linea de codigo
 # y la unira en una sola linea con la anterior, ose que la anterior linea sera una
 # sola con la sigiente linea.
