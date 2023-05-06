@@ -7,7 +7,7 @@ print("La palablar 'HOLA' tiene ", len("hola"), " caracteres. \n")
 
 print("Ejemplo 2")
 longitut = len("Emmanuel")
-print("el nombre 'Emmanuel' tiene ", longitut, " caracteres. \n")
+print("La variable que contiene 'Emmanuel' tiene ", longitut, " caracteres. \n")
 
 print("Ejemplo 3")
 cadena = input("Ingresa una cadena de caractares.")
