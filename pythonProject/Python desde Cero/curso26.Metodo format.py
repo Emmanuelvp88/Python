@@ -1,9 +1,9 @@
-print('Ahora veremos comose concatena con el metodo "format"')
+print('Ahora veremos diferentes formas y metodos con lo que podemos concatenar y una de esos metodos es "format"')
 
 nombre = 'Juan'
 edad = 22
 
-print('Ejemplo 1')
+print('Ejemplo 1: con el signo +')
 # Esta es la concatenacion tardicional con la estamos acostumbrados
 print('Hola ' + nombre + ' tu edad es de ', edad, ' años \n')
 
