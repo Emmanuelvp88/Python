@@ -21,4 +21,3 @@ num2 = int(input(f'{nombre} ahora introduce el segundo numero: '))
 # Agregar Expreciones dentro de la misma cadena, como es una suma, resta, multiplicacion
 # Divivion etc. montrando el resultado de la exprecion.
 print(f'{nombre} el resutado de num1 + num2 es igual a:  {num1 + num2}')
-
