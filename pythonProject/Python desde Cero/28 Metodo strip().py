@@ -3,14 +3,15 @@ print('\nAhora veremos el metodo "strip()"\n')
 # dentro de los parentecis del "strip()" deveras meter los caranteres que deseas eliminar.
 
 print('Ejemplo 1: Si no le espesificamos al metodo '
-      'que caracter deseamos eliminar por defecro nos eliminara los espacios '
-      'en blanco del preincipio y del final\n')
+      'que caracter deseamos eliminar por defecto nos eliminara los espacios '
+      'en blanco del principio y del final\n')
 
 palabra = "   Emmanuel   "
-print(palabra.strip())
+print("antes:", palabra)
+print("despues:",palabra.strip())
 
-print('\nEjemplo 2: Al ingresar caracteres dentro del metodo "strip()" los caracteres se iran eliminando solo del principio y del final de cierta cadena'
-      'si no lo encuentra se saltara al otro caracter y lo buscara e en principio y el fin de cierta cadena y asi susecivamente')
+print('\nEjemplo 2: Al ingresar caracteres dentro del metodo "strip()" los caracteres se iran eliminando del principio y del final  de la cadena'
+      'Con forme los valla encontrando los ira eliminando y saltara al siguinte caracter y asi sucesivamente hasta terminar con la cadena')
 # si el "strip" esta vacio solo eliminara los espacios en blanco, tabulaciones
 # y saltos de linea del inicio y final de la cadena.
 palabra = input('ingresa una cadena de texto: ')
