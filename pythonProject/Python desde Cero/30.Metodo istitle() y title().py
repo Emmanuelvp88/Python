@@ -1,4 +1,8 @@
-nombre = "eMManuEL viLLalVa peRez"
+
+firstName = input('Ingresa tu nombre: ')
+lastName = input('ingresa tu apellido: ')
+nombre = f'{firstName} {lastName}'
+
 print(f"Cadena original: {nombre}\n");
 print(f'Cadena con metodo istitle(): {nombre.istitle()}');
 print("nos regreso false proque la cadena esta escrito incoreectamente, tiene mezcaldas mayusculas y minisculas.\n")
