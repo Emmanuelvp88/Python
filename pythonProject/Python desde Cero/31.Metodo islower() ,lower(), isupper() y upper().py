@@ -2,6 +2,7 @@ print(f'*************     Metodos islower() y lower()     *****************\n')
 print(f'El metodo islower() siver para comparar si una cadena de texto esta escrita con puras letras minusculas,'
       f'si es verdadero nos regresara "true" de lo contrario "false"')
 print('El metodo lower() en cambio es para convertir todas las letras minusculas de cualquier cadena de texto\n')
+
 print('*****************   Metodos isupper() Y upper()    ******************')
 print('El metodo isupper() es para comprobar si una cadena de caracteres contiene puras letras mayusculas,'
       'si esto es verdadero nos regresara un "true" de lo contrario "false"')
