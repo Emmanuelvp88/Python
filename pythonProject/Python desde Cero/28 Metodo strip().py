@@ -18,6 +18,6 @@ print('\nEjemplo 2: Al ingresar caracteres dentro del metodo "strip()" los carac
 #Cabe mencionar que si no escuentra ningun caracter indiacado en el principio o el final se saltara
 palabra = input('ingresa una cadena de texto: ')
 print(f'La cadena que ingresaste es: {palabra}\n')
-print('eliminaremos los sigientes caracteres de la cadena que ingresaste: E,m,u')
-palabra = palabra.strip('\tE m u\n')
+print('eliminaremos los sigientes caracteres de la cadena que ingresaste: E,m,u,a')
+palabra = palabra.strip('\tEmua\n')
 print(f'El restante de la cadena es: {palabra}')
