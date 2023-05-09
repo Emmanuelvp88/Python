@@ -17,7 +17,7 @@ if len(caracter) == 0:  #validacion por si el usuario no ingresa ningun caracter
 print(cadena.center(espacios, caracter))
 
 print('\n******* Metoodo ljust()   ******\n')
-print('El metodo ljust() es igual que center solo que recorre el contenido de la cadena al lado izquierdo.')
+print('El metodo ljust() es igual que el metodo center(), solo que recorre el contenido de la cadena al lado izquierdo.')
 
 cadena1 = input('Ingresa una cadena: ')
 espacios = int(input('cuantos espacios quieres a tu izquierda: '))
