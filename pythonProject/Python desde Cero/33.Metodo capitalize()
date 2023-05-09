@@ -1,0 +1,6 @@
+print('***************     Metodo capitalize()   ****************\n')
+print('El metodo capitalize() se encarga de poner solo la primer letra en mayusculas de cualquier cadena de texto.\n')
+
+cadena = input('Ingresa una cadena de texto: ')
+print(f'La cadena que ingresaste es: {cadena}\n')
+print(f'Esta es la cadena despues del metodo capitalize(): {cadena.capitalize()}')
