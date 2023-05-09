@@ -6,10 +6,24 @@ print('El metodo center() se encarga de  centrar una cadena de texto, este metod
       'entre comillas, en este caso es un parentesis asi qeu la cadena quedaria asi:***hola***\n')
 
 cadena = input('Ingresa una cadena: ')
-caracter = input('Ingresa el caracter que deseas tener a los lados, si no, puedes dejarlos en blanco: ')
+caracter = input('Que caracter deseas tener a los lados, si deseas puedes dejar espacios enblanco: ')
 espacios = int(input('cuantos espacios quieres a los lados?: '))
-espacios = len(cadena) + espacios * 2;
-if len(caracter) == 0:
+
+espacios = len(cadena) + espacios * 2;   #suma de los espacios mas el numero de caracteres
+
+if len(caracter) == 0:  #validacion por si el usuario no ingresa ningun caracter
       caracter = " "
 
 print(cadena.center(espacios, caracter))
+
+print('\n******* Metoodo ljust()   ******\n')
+print('El metodo ljust() es igual que center solo que recorre el contenido de la cadena al lado izquierdo.')
+
+cadena1 = input('Ingresa una cadena: ')
+espacios = int(input('cuantos espacios quieres a tu izquierda: '))
+caracter1 = input('Que caracter deseas o deseas espacios en blaco: ')
+
+espacios = len(cadena) + espacios;
+if len(caracter1) == 0:
+      caracter1 = " ";
+print(cadena1.ljust(espacios, caracter1))
