@@ -10,5 +10,5 @@ cadena = input('ingresa una cadena de texto: ')
 caracter = input('Que caracter quieres contar: ')
 comienzo = int(input('De donde quieres que empieze: '))
 final = int(input('Donde quieres que termine: '))
-print(f'El caracter o palabra "{caracter}" se encuentra {cadena.count(caracter, comienzo, final)} veces en la cadena que ingresaste.')
+print(f'La palabra o caracter "{caracter}" se encuentra {cadena.count(caracter, comienzo, final)} veces en la cadena "{cadena}"')
 
