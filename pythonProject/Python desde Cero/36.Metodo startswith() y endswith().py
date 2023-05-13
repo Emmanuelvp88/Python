@@ -9,3 +9,7 @@ cadena = 'Diana lava la ropa'
 print('******    Metodo startswith()    *********')
 print(f'La cadena "{cadena}" ¿Empieza con la letra "D"?: {cadena.startswith("D")}')
 print(f'La cadena "{cadena}" ¿Empieza con la palabra "Diana"?: {cadena.startswith("Diana")}')
+
+print('\n*********     Metodo endswith()   **********')
+print(f'La cadena "{cadena}" ¿termina con la letra "p"? {cadena.endswith("p")}')
+print(f'La cadena "{cadena}" ¿termina con la palabra "ropa"? {cadena.endswith("ropa")}')
