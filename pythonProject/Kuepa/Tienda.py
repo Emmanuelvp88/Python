@@ -34,6 +34,7 @@ while 1 == 1:
             print('"A" Tarjeta Debito/Credito')
             print('"B" Efectivo')
             metodoDePago = input("Que metodo desea utilizar?")
+
             if metodoDePago == "A":
                 print("\nEligio pago con tarjeta")
                 print("Total a pagar: $", total)
