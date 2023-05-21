@@ -10,7 +10,7 @@ class Persona:
         self.sueño = sue
         self.camina = cam
 
-#Metodo donde tiene las impresiones de los atributos
+#Metodo para mostrar los atributos
     def atributos(self):
         print('\nMostramos los atribitos del objeto\n')
         print('nombre: ', self.nombre,
@@ -19,7 +19,7 @@ class Persona:
               '\nPeso: ', self.peso,
               '\nAltura: ', self.altura)
 
-#creamos los metodos
+#creamos metodos con diferentes acciones
     def comer(self):
         print(self.nombre, self.comida)
     def dormir(self):
@@ -28,7 +28,7 @@ class Persona:
         print(self.nombre, self.camina)
 
 #creamos un metodo para  impriman todos los metodos anteriores juntos
-    def metodos(self):
+    def acciones(self):
         print('\nAhora mostraremos los metodos\n')
         self.comer()
         self.dormir()
@@ -39,4 +39,4 @@ emmanuel = Persona('Emmanuel', 'Masculino', '34 años', '70kg', '1.70m', 'come p
 
 #mandamos a llamar a los metodos para que se muestren en consola
 emmanuel.atributos()
-emmanuel.metodos()
+emmanuel.acciones()
