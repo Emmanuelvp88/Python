@@ -1,0 +1,6 @@
+print('***********    Metodo rempllace()   ********')
+cadena = input('Ingrese una cadena de texto: ')
+remplazada = cadena.remplace(input('Que frace deseas remplazar: ', input('ingresa unanueva frace')))
+#remplazo = input('Ingresa una nueva frace:  ')
+#nuevaCadena = cadena.replace(remplazo, remplazada)
+print(remplazada)
