@@ -1,6 +1,6 @@
-frase = input('Ingresa una frase que desees: ')
-palabra = input('Ingresa la palabra que deseas eliminar de esa frase: ')
-indice = frase.find(palabra)
+cadena = input('Ingresa una cadena de texto: ')
+frase = input('Ingresa la frase que deseas eliminar de la cadena: ')
+indice = cadena.find(frase)
 
-fraseRecortada = frase[0:indice] + frase[indice + len(palabra)+1:  ]
+fraseRecortada = cadena[ :indice] + cadena[len(frase): ]
 print(fraseRecortada)
