@@ -19,6 +19,6 @@ print('quitando los espacios: ' + "1", "2", "3", "4", "5", sep="")
 # o complemetarlo con cualquier caracter que queramos en este caso usaremos una coma
 print("Separacion con coma; 1" , "2" , "3" , "4" , "5", sep=",")
 # un "Gion"
-print("1", "2", "3", "4", "5", sep="-")
+print('Separacion por gion: ',"1", "2", "3", "4", "5", sep="-")
 # o un signo
-print("1", "2", "3", "4", "5", sep="+")
+print('Separacion por signo: ', "1", "2", "3", "4", "5", sep="+")
