@@ -12,7 +12,7 @@ print("Hace el parametro end.")
 
 print('\nParametro "sep"')
 # El parametro "sep" se encarga de las separaciones  de unas cadenas de caracteres
-# dentro de un print ya sea eliminar lso espacion o agragando algo en cada espacio.
+# dentro de un print, ya sea eliminar los espacion o agragando algo entre los espacio de lacadena.
 
 # por default Python nos pone un espacio entre cada caracter.
 print("1", "2", "3", "4", "5")
