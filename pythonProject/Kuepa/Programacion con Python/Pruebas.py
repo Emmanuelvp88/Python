@@ -2,9 +2,9 @@ nombreArchivo = input('Ingrse el nombre del archivo: ')
 try:
      archivo = open(nombreArchivo)
 except:
-    print('el archivo', nombreArchivo, 'es invalido')
+    print(f'el archivo "{nombreArchivo}" es invalido')
     quit()
-dicc = dict()#creamos un diccionario
+dicc = dict()#creamos un diccionario tambien se puede de ssta otra manera "Dicci = {}"
 for lineas in archivo:#recoremos el archivo
     if lineas.startswith("From "):#seleccionamos las lineas que empizan con from
         listaLineas = lineas.split()#Almacenamos las lineas en una lista
