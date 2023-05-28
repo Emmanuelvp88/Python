@@ -11,8 +11,8 @@ while 1 == 1:
     #Validacion de datos del usuario que sean correctos
     if validacion == "Historial.txt":
         #imprecion de datos mediante un "for in"
-        for i in lista:
-            print(f'{i}{lista[i]}')
+        for i,j in lista.items():
+            print(f'{i}{j}')
         break
         #Para terminar programa si todo salio bien
 
