@@ -12,7 +12,7 @@ while 1 == 1:
     if validacion == "Historial.txt":
         #imprecion de datos mediante un "for in"
         for i,j in lista.items():
-            print(f'{i}{j}')
+            print(i,j)
         break
         #Para terminar programa si todo salio bien
 
