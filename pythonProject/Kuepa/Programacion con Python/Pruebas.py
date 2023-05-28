@@ -12,4 +12,3 @@ print(lista1)
     #    diccionario[i] = diccionario[i] + 1
 #print(diccionario)
 
-
