@@ -8,10 +8,10 @@ dicc = dict()#creamos un diccionario
 for lineas in archivo:#recoremos el archivo
     if lineas.startswith("From "):#seleccionamos las lineas que empizan con from
         listaLineas = lineas.split()#Almacenamos las lineas en una lista
-        dia = listaLineas[2]#Guardamos
-        listaDia = dia.split()
-        for i in listaDia:
-            dicc[i] = dicc.get(i, 0) + 1
+        dia = listaLineas[2]#Guardamos el elemento 2 de la lista en una variable
+        listaDia = dia.split()# y Guardamos esa var en una lista
+        for dias in listaDia:# recorremos esa lista para guardarla en un diccionario y hacer el conteo
+            dicc[dias] = dicc.get(dias, 0) + 1
 print(dicc)
 
 
