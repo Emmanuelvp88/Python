@@ -1,4 +1,3 @@
-
 firstName = input('Ingresa tu nombre: ')
 lastName = input('ingresa tu apellido: ')
 nombre = f'{firstName} {lastName}'
