@@ -1,6 +1,4 @@
-frase = input('Ingresa una frase: ')
-contador = 0
-if contador < len(frase):
-    for letra in frase:
-        print(frase[contador], end='')
-        contador+=1
+with open("Historial.txt") as archivo:
+    for i in archivo:
+        if i.startswith("From "):
+            print(i)
