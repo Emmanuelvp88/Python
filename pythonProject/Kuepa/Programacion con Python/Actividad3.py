@@ -47,7 +47,7 @@ for d, v in conteo_dias.items():
 
 plt.figure()
 pos = list(range(len(dias_de_correos_enviados)))
-bars = plt.bar(pos, lista_ejex.values(), align="center", linewidth=0, color="purple")
+bars = plt.bar(pos, lista_ejex.values(), align="center", linewidth=0, color="yellow")
 bars[1].set_color("red")
 plt.xticks(pos, dias_de_correos_enviados, alpha=0.8)
 plt.tick_params(top="off", bottom="off", left="off", right="off", labelleft="off", labelbottom="on")
